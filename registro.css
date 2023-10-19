@@ -1,0 +1,65 @@
+
+
+body{
+    background-image: url(background_register.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#contenedor{
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #916a6a;
+    text-align: left;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#contenedor h1{
+    color: #000000;
+    font-size: 24px;
+}
+
+#contenedor h2{
+    color: #000000;
+    font-size: 18px;
+}
+
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    background-color: #dbd9d9;
+}
+
+select {
+    width: 40%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    background-color: #dbd9d9;
+
+}
+
+button {
+    margin-top: 10px;
+    background-color: #1e2022;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000000;
+}

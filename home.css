@@ -1,0 +1,368 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+@media screen and (min-width: 1024px){
+
+
+header{
+    background-image: url(comida.jpg);
+}
+#header-div {
+    text-align: center;
+    padding: 20px;
+    padding-top: 20px;
+    background-color: rgba(192, 92, 92, 0.5);
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    
+}
+
+#title {
+    color: #f3f3f3;
+    font-size: 36px;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+
+header {
+    background-color: #fff;
+    border-bottom: 2px solid #922e2e;
+}
+
+
+nav {
+    background-color: #922e2e;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+
+h3 {
+    color: #922e2e;
+    font-size: 20px;
+    text-align: center
+}
+
+p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+ul {
+    list-style-type: none;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    color: #333;
+    font-size: 16px;
+    margin: 10px 0;
+}
+li span{
+    color: #922e2e;
+    font-weight: bold;
+}
+
+li::before {
+    content: "";
+    display: inline-block;
+    width: 20px; 
+    height: 20px; 
+    margin-right: 10px; 
+    background-image: url('foodicon.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+
+#takeaway_container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#takeaway_container a {
+    text-decoration: none;
+    color: #007bff;
+    display: block;
+    font-size: 18px;
+}
+
+#takeaway_container a:hover {
+    text-decoration: underline;
+}
+
+footer{
+    text-align: center;
+    background-color: #922e2e;
+    padding: 20px;
+    
+}
+footer p{
+    color: #ffffff;
+}
+
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px){
+    header{
+        background-image: url(header_media.jpg);
+    }
+    #header-div {
+        text-align: center;
+        padding: 20px;
+        padding-top: 20px;
+        background-color: rgba(192, 92, 92, 0.5);
+        width: 500px;
+        margin: 0 auto;
+        margin-bottom: 60px;
+        
+    }
+    #title {
+        color: #f3f3f3;
+        font-size: 36px;
+    }
+    
+    h2 {
+        color: #ffffff;
+        font-size: 18px;
+    }
+    
+    
+    header {
+        background-color: #fff;
+        border-bottom: 2px solid #922e2e;
+    }
+    
+   
+    nav {
+        background-color: #922e2e;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+
+    main {
+        padding: 20px;
+    }
+    
+   
+    h3 {
+        color: #922e2e;
+        font-size: 20px;
+        text-align: center
+    }
+    
+    p {
+        color: #333;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    
+    
+    ul {
+        list-style-type: none;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    
+    li {
+        color: #333;
+        font-size: 16px;
+        margin: 10px 0;
+    }
+    li span{
+        color: #922e2e;
+        font-weight: bold;
+    }
+    
+    li::before {
+        content: "";
+        display: inline-block;
+        width: 20px; 
+        height: 20px; 
+        margin-right: 10px; 
+        background-image: url('foodicon.png'); 
+        background-size: cover; 
+        background-repeat: no-repeat;
+    }
+    
+   
+    #takeaway_container {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    #takeaway_container a {
+        text-decoration: none;
+        color: #007bff;
+        display: block;
+        font-size: 18px;
+    }
+    
+    #takeaway_container a:hover {
+        text-decoration: underline;
+    }
+    
+    footer{
+        text-align: center;
+        background-color: #922e2e;
+        padding: 20px;
+        
+    }
+    footer p{
+        color: #ffffff;
+    }
+    
+    
+
+
+}
+
+@media screen and (max-width: 767px){
+    header{
+        background-image: url(header_peque.png);
+    }
+    #header-div {
+        text-align: center;
+        padding: 20px;
+        padding-top: 20px;
+        background-color: rgba(192, 92, 92, 0.5);
+        width: 500px;
+        margin: 0 auto;
+        margin-bottom: 60px;
+        
+    }
+    #title {
+        color: #f3f3f3;
+        font-size: 36px;
+    }
+    
+    h2 {
+        color: #ffffff;
+        font-size: 18px;
+    }
+    
+
+    header {
+        background-color: #fff;
+        border-bottom: 2px solid #922e2e;
+    }
+    
+    nav {
+        background-color: #922e2e;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+
+    main {
+        padding: 20px;
+    }
+    
+
+    h3 {
+        color: #922e2e;
+        font-size: 20px;
+        text-align: center
+    }
+    
+    p {
+        color: #333;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    
+
+    ul {
+        list-style-type: none;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    
+    li {
+        color: #333;
+        font-size: 16px;
+        margin: 10px 0;
+    }
+    li span{
+        color: #922e2e;
+        font-weight: bold;
+    }
+    
+    li::before {
+        content: "";
+        display: inline-block;
+        width: 20px; 
+        height: 20px; 
+        margin-right: 10px; 
+        background-image: url('foodicon.png'); 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+    }
+    
+    
+    #takeaway_container {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    #takeaway_container a {
+        text-decoration: none;
+        color: #007bff;
+        display: block;
+        font-size: 18px;
+    }
+    
+    #takeaway_container a:hover {
+        text-decoration: underline;
+    }
+    
+    footer{
+        text-align: center;
+        background-color: #922e2e;
+        padding: 20px;
+        
+    }
+    footer p{
+        color: #ffffff;
+    }
+}

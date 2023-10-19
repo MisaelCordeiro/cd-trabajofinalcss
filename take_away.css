@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-color: #edf1dd;
+}
+
+html {
+    height: 100%;
+}
+
+header{
+    background-image: url(comida.jpg);
+}
+#header-div {
+    text-align: center;
+    padding: 70px;
+    padding-top: 20px;
+    background-color: rgba(192, 92, 92, 0.5);
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    
+}
+
+header a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+nav {
+    margin-top: -60px;
+    background-color: #922e2e;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+#title_section{
+    text-align: center;
+    color: #922e2e;
+    font-size: 20px;
+}
+
+section {
+    padding: 20px;
+    background-color: #f2f2f2;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin: 50px;
+}
+.promocion{
+    
+    width: 500px;
+    height: auto;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f1be72;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.promocion img{
+    max-width: 50%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+.promocion img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+footer{
+    text-align: center;
+    background-color: #922e2e;
+    padding: 20px;
+    
+}
+footer p{
+    color: #ffffff;
+}
