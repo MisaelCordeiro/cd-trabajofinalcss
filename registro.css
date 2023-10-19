@@ -10,7 +10,7 @@ body{
 }
 
 #contenedor{
-    width: 500px;
+    width: 700px;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;
@@ -22,6 +22,42 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+
+
+#nombre, #apellido1 {
+    width: 45%; /* Ancho ajustado para estos campos */
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    background-color: #dbd9d9;
+}
+#apellido2{
+    width: 45%; /* Ancho ajustado para estos campos */
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    background-color: #dbd9d9;
+}
+#direccion, #codigopostal, #municipio {
+    width: 31%; /* Ancho ajustado para estos campos */
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    background-color: #dbd9d9;
+    
+}
+
+#emailInput, #telefonomovil{
+    width: 45%; /* Ancho ajustado para estos campos */
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    background-color: #dbd9d9;
+}
+
+
+
 
 #contenedor h1{
     color: #000000;
@@ -53,13 +89,14 @@ select {
 
 button {
     margin-top: 10px;
-    background-color: #1e2022;
+    background-color: #000000;
     color: #fff;
-    padding: 10px 20px;
+    padding: 10px 50px;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 button:hover {
-    background-color: #000000;
+    background-color: #1e2022;
 }

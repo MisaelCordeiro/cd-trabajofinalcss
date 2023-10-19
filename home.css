@@ -12,19 +12,22 @@ html {
 @media screen and (min-width: 1024px){
 
 
-header{
-    background-image: url(comida.jpg);
-}
-#header-div {
-    text-align: center;
-    padding: 20px;
-    padding-top: 20px;
-    background-color: rgba(192, 92, 92, 0.5);
-    width: 500px;
-    margin: 0 auto;
-    margin-bottom: 60px;
-    
-}
+    header{
+        background-image: url(comida.jpg);
+        background-position: center;
+        background-size: 50%;
+        padding: 2%;
+    }
+    #header-div {
+        display: block;
+        background-color: rgba(192, 92, 92, 0.5);
+        margin: 0 auto;
+        text-align: center;
+        width: fit-content;
+        padding: 2%;
+        
+        
+    }
 
 #title {
     color: #f3f3f3;
@@ -103,15 +106,22 @@ li::before {
 
 
 #takeaway_container {
-    text-align: center;
-    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #takeaway_container a {
     text-decoration: none;
-    color: #007bff;
-    display: block;
+    color: #d82619;
+    display: flex;
     font-size: 18px;
+    align-items: center;
+    
+}
+#takeaway_container img {
+    margin-right: 10px;
 }
 
 #takeaway_container a:hover {
@@ -132,18 +142,22 @@ footer p{
 
 @media screen and (max-width: 1023px) and (min-width: 768px){
     header{
+        
         background-image: url(header_media.jpg);
-    }
-    #header-div {
-        text-align: center;
-        padding: 20px;
-        padding-top: 20px;
-        background-color: rgba(192, 92, 92, 0.5);
-        width: 500px;
-        margin: 0 auto;
-        margin-bottom: 60px;
+        background-position: center;
+        background-size: 100%;
+        padding: 2%;
         
     }
+    #header-div {
+        display: block;
+        background-color: rgba(192, 92, 92, 0.5);
+        margin: 0 auto;
+        text-align: center;
+        width: fit-content;
+        padding: 2%;
+        
+      }
     #title {
         color: #f3f3f3;
         font-size: 36px;
@@ -221,15 +235,22 @@ footer p{
     
    
     #takeaway_container {
-        text-align: center;
-        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     
     #takeaway_container a {
         text-decoration: none;
-        color: #007bff;
-        display: block;
+        color: #d82619;
+        display: flex;
         font-size: 18px;
+        align-items: center;
+        
+    }
+    #takeaway_container img {
+        margin-right: 10px;
     }
     
     #takeaway_container a:hover {
@@ -254,15 +275,17 @@ footer p{
 @media screen and (max-width: 767px){
     header{
         background-image: url(header_peque.png);
+        background-position: center;
+        background-size: 100%;
+        padding: 2%;
     }
     #header-div {
-        text-align: center;
-        padding: 20px;
-        padding-top: 20px;
+        display: block;
         background-color: rgba(192, 92, 92, 0.5);
-        width: 500px;
         margin: 0 auto;
-        margin-bottom: 60px;
+        text-align: center;
+        width: fit-content;
+        padding: 2%;
         
     }
     #title {
@@ -341,20 +364,27 @@ footer p{
     
     
     #takeaway_container {
-        text-align: center;
-        margin-top: 20px;
-    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#takeaway_container a {
+    text-decoration: none;
+    color: #d82619;
+    display: flex;
+    font-size: 18px;
+    align-items: center;
     
-    #takeaway_container a {
-        text-decoration: none;
-        color: #007bff;
-        display: block;
-        font-size: 18px;
-    }
-    
-    #takeaway_container a:hover {
-        text-decoration: underline;
-    }
+}
+#takeaway_container img {
+    margin-right: 10px;
+}
+
+#takeaway_container a:hover {
+    text-decoration: underline;
+}
     
     footer{
         text-align: center;
